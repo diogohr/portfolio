@@ -8,7 +8,7 @@
     list-style: none;
     font-family: "Poppins", sans-serif;
     list-style: none;
-    color: #fff;
+    color: #fffeb7;
 }
 
 body {
@@ -38,5 +38,58 @@ button {
     border-radius: 110px;
     background: #4b4b4b;
     cursor: pointer;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 120vh;
+}
+
+.container-img img {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 350px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border: 10px solid; /* Define a largura da borda */
+    background-color: rgb(255,254,183);
+    border-image: linear-gradient(221deg, rgba(255,254,183,1) 0%, rgba(253,187,45,1) 100%);;
+}
+
+.container {
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.p1 {
+    color: #fff;
+}
+
+.p2 {
+    font-size: 50px;
+}
+
+.p3 {
+    color: #fff;
+}
+
+.p4 {
+    color: #fff;
+}
+
+.contatos {
+    display: flex;
+}
+
+.contatos img {
+    width: 40px;
+    height: 40px;
+    border: none;
 }
 
